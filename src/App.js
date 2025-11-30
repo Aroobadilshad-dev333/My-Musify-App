@@ -4,16 +4,16 @@ import SongList from './components/SongList';
 import MusicPlayer from './components/MusicPlayer';
 
 const songs = [
-  {songName: "true love", filePath: "1.mp3", coverPath: "cover.jpg"},
-  {songName: "relaxe-sound", filePath: "2.mp3", coverPath: "cover2.jpg"},
-  {songName: "beat", filePath: "3.mp3", coverPath: "cover3.jpg"},
-  {songName: "no way", filePath: "4.mp3", coverPath: "cover4.jpg"},
-  {songName: "Rock on", filePath: "5.mp3", coverPath: "cover5.jpg"}, 
-  {songName: "motivational", filePath: "6.mp3", coverPath: "cover6.jpg"},
-  {songName: "hindi music", filePath: "7.mp3", coverPath: "cover7.jpg"},
-  {songName: "drop it", filePath: "8.mp3", coverPath: "cover8.jpg"},
-  {songName: "hopeful", filePath: "9.mp3", coverPath: "cover9.jpg"},
-  {songName: "better-day", filePath: "10.mp3", coverPath: "cover10.jpg"},
+  {songName: "true love", filePath: "1.mp3", coverPath: process.env.PUBLIC_URL + "/cover.jpg"},
+  {songName: "relaxe-sound", filePath: "2.mp3", coverPath: process.env.PUBLIC_URL + "/cover2.jpg"},
+  {songName: "beat", filePath: "3.mp3", coverPath: process.env.PUBLIC_URL + "/cover3.jpg"},
+  {songName: "no way", filePath: "4.mp3", coverPath: process.env.PUBLIC_URL + "/cover4.jpg"},
+  {songName: "Rock on", filePath: "5.mp3", coverPath: process.env.PUBLIC_URL + "/cover5.jpg"}, 
+  {songName: "motivational", filePath: "6.mp3", coverPath: process.env.PUBLIC_URL + "/cover6.jpg"},
+  {songName: "hindi music", filePath: "7.mp3", coverPath: process.env.PUBLIC_URL + "/cover7.jpg"},
+  {songName: "drop it", filePath: "8.mp3", coverPath: process.env.PUBLIC_URL + "/cover8.jpg"},
+  {songName: "hopeful", filePath: "9.mp3", coverPath: process.env.PUBLIC_URL + "/cover9.jpg"},
+  {songName: "better-day", filePath: "10.mp3", coverPath: process.env.PUBLIC_URL + "/cover10.jpg"},
 ];
 
 function App() {
