@@ -64,7 +64,6 @@ src/
 
  ##  Demo
 
-[View Site Live](https://aroobadilshad-dev333.github.io/My-Musify-App/)
 After starting the dev server, open http://localhost:3000 in your browser.
 
 
