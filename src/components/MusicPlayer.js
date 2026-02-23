@@ -40,7 +40,7 @@ const MusicPlayer = ({
       </div>
       <div className="songInfo absolute left-[10vw] font-varela max-lg:left-[7vw] max-lg:text-sm max-md:left-[5vw] max-md:text-sm max-sm:left-[5vw] max-sm:bottom-[60px] max-sm:text-xs">
         <img 
-          src={`${process.env.PUBLIC_URL}/playing.jpg`} 
+          src={isPlaying ? "/playing.jpg" : ""} 
           width="42" 
           alt="" 
           className={`inline-block mr-2 transition-opacity duration-400 max-sm:w-10 ${isPlaying ? 'opacity-100' : 'opacity-0'}`}

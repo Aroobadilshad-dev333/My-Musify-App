@@ -4,7 +4,7 @@ const SongItem = ({ song, index, isCurrentSong, isPlaying, duration, onPlay, for
   return (
     <div className="h-12 flex bg-white w-1/2 text-black my-3 justify-between items-center rounded-full max-lg:w-[70%] max-lg:h-11 max-md:w-[90%] max-md:h-10 max-md:my-2 max-sm:h-auto max-sm:w-full max-sm:my-2 max-sm:px-2 max-sm:py-1">
       <img 
-        src={`${process.env.PUBLIC_URL}/${song.coverPath}`} 
+        src={song.coverPath} 
         alt={song.songName}
         className="w-11 mx-6 rounded-full max-lg:w-10 max-lg:mx-4 max-md:w-8 max-md:mx-2 max-sm:w-8 max-sm:mx-2"
       />
