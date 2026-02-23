@@ -1,7 +1,7 @@
 {
   "name": "musify-app",
   "version": "1.0.0",
-  "homepage": "https://aroobadilshad-dev333.github.io/My-Musify-App/",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "react": "^18.2.0",
